@@ -1,0 +1,393 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* Common CSS Start */
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+/* CSS Header Area */
+.header-area 
+ .header-part{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}  
+
+ .logo img{
+          
+             width: 150px;
+             margin-top: 10px;
+          }
+        
+ 
+  .menu ul{
+    list-style: none;
+    margin-top: 15px;
+    display: flex;
+    gap: 25px;
+        }
+    .menu a{
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 20px;
+      font-weight: 500;
+      color: #000;
+      margin-top: 25px;
+    }
+
+    .login-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+      button{
+        border: none;
+        font-size: 17px;
+        font-weight: 500;
+        border: 1px solid #f1f1f1;
+        padding: 11px 28px;
+        border-radius: 30px;
+        cursor: pointer;
+      
+ }
+
+ .h-btn{
+    background-color: black;
+    color: white;
+ }
+     img{
+        width: 30px;
+     }
+
+
+     /* Hero Area Start */
+     .hero-part{
+      background-image: url(project\ image/Rectangle\ 1.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 120px 0;
+     }
+
+     .h-btn2{
+      text-align: center;
+      margin-top: 60px;
+    }
+      .h-btn2 button{
+        background-color: transparent;
+        border: none;
+        border: 1px solid #f1f1f1;
+        color: white;
+        padding: 10px 40px;
+        text-decoration: underline;
+        border-radius: 30px;
+        font-size: 17px;
+        cursor: pointer;
+      }
+    
+
+    .find-offer{
+      width: 800px;
+      background-color: #fff;
+      padding: 35px;
+      border-radius: 15px;
+    }
+      .find-offer h1{
+        text-align: center;
+        font-weight: 500;
+      
+    }
+
+    .offer-item{
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 40px;
+      padding-bottom: 25px;
+
+    }
+  .offer-item select{
+    width: 150px;
+    padding: 5px;
+    background-color: #ececec;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+
+  }
+
+  .offer-item-2{
+    display: flex;
+    margin-left: 30px;
+    padding-bottom: 20px;
+  }
+    .offer-item-2 h3{
+      background-color: #ececec;
+      width: 500px;
+      padding: 10px 0;
+      text-align: center;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+      .offer-item-2 button{
+        border: none;
+        background-color: #00ebc7;
+        padding: 0 40px;
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 30px;
+      }
+    
+    
+/* Brand Icon */
+.brand-icon{
+  background-color: #fde24f;
+  text-align: center;
+  padding: 30px;
+}
+.brand-icon-details h2{
+ font-size: 24px;
+ font-weight: 500;
+ margin-bottom: 20px;
+ margin-top: 20px;
+}
+.brand-icon-details img{
+  width: 80%;
+  margin-top: 20px;
+}
+
+/* Feature Area */
+.feature-area{
+  padding: 40px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.feature-area h2{
+  font-style: 24px;
+  font-weight: 500;
+}
+
+.feature-btn{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.feature-btn button{
+  border: none;
+  border: 2px solid #000;
+  background-color: transparent;
+  font-size: 17px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+
+}
+
+.feature-item{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin-top: 60px;
+
+}
+
+.f-item{
+  text-align: center;
+}
+
+.f-item img{
+  width: 60px;
+}
+.f-item h3{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 15px;
+}
+.f-item p{
+  width: 250px;
+  margin: 0 auto;
+  color: #535353;
+}
+
+.f-item a{
+  display: block;
+  margin-top: 30px;
+  color: #000;
+  font-size: 18px;
+
+}
+.f-item span{
+  font-style: italic;
+  position: relative;
+}
+
+.border::before{
+  content: "";
+  width: 45px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  top: 90px;
+  left: -120px;
+}
+
+.border::after{
+  content: "";
+  width: 45%;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  top: 90px;
+  right: -120px;
+}
+/* Css Buy/Sell Section */
+
+.buy-sell {
+  padding: 70px 0;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #000;
+  
+}
+.buy-sell-content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+.buy h3{
+   margin-bottom: 30px;
+}
+.buy-sell-item{
+  display: flex;
+  gap: 30px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 520px;
+}
+.buy-sell-item img{
+  width: 50px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+.buy-sell-details{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.buy-sell-details h3{
+  font-weight: 500;
+}
+.sell{
+  position: relative;
+ & .sell-border::before{
+  content: "";
+  width: 1px;
+  height: 132%;
+  background-color: #000;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: 500;
+ }
+}
+
+.buy-sell-btn{
+  text-align: center;
+  margin-top: 50px;
+}
+.buy-sell-btn button{
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* Crypto Area */
+.crypto-area{
+  text-align: center;
+  background-color: #cfbaff;
+  padding: 90px;
+}
+
+.crypto-area h2{
+  font-size: 55px;
+}
+
+.crypto-area button{
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  margin-top: 50px;
+  font-size: 19px;
+  font-weight: 500;
+}
+/* Footer Area Start */
+.footer{
+  color: #fff;
+  background-color: #000;
+  padding: 40px 0;
+}
+.footer-part{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 60px;
+}
+.f-logo img{
+  width: 90px;
+  margin-left: 67px;
+  margin-top: 18px;
+
+}
+.f-item h3{
+font-size: 23px;
+font-weight: 500;
+text-align: left;
+margin-left: -2px;
+}
+ .f-item ul {
+  list-style: none;
+  margin-top: 25px;
+  
+}
+  .f-item li{
+  display: block;
+  
+}
+.f-item a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 17px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.footer-bottom{
+  border-top: 1px solid #fff;
+}
+.footer-bottom p{
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+}
